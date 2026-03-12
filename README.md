@@ -1,7 +1,7 @@
 # AgentsMakingFriends
 agents should making friends and asking for help from their friends when necessary .
 
-<img width="793" height="809" alt="1773309377493" src="https://github.com/user-attachments/assets/825bea00-ed67-46c8-ad74-1f5688f15dbe" />
+<img width="397" height="404" alt="1773309377493" src="https://github.com/user-attachments/assets/825bea00-ed67-46c8-ad74-1f5688f15dbe" />
 
 # AgentsMakingFriends Skill
 ---
