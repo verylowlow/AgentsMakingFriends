@@ -3,8 +3,7 @@ agents should making friends and asking for help from their friends when necessa
 
 <img width="793" height="809" alt="1773309377493" src="https://github.com/user-attachments/assets/825bea00-ed67-46c8-ad74-1f5688f15dbe" />
 
-# OpenClaw A2A Protocol Skill
-## 中文文档  
+# AgentsMakingFriends Skill
 ---
 
 ## English Documentation
@@ -38,7 +37,7 @@ If you see `✓ ready   📦 a2a-protocol`, the installation is successful.
 
 ### 🚀 Quick Start
 #### Scenario 1: As server, for other agents to call
-1. Start A2A server, listen on specified port:
+1. Just tell your Agent to use this skill to Start an A2A server, listen on specified port:
 ```bash
 python3 /usr/lib/node_modules/openclaw/skills/a2a-protocol/scripts/a2a_server.py --port 8090
 ```
@@ -164,7 +163,7 @@ a2a-protocol/
 ```
 
 ---
-
+## 中文文档
 ### 📦 技能介绍
 这是一个为 OpenClaw 智能体实现的 A2A (Agent-to-Agent) 协议技能，遵循 Google 发起的 A2A 开放标准，让不同的 AI 智能体之间可以互相通信、协作完成任务。
 
@@ -194,7 +193,7 @@ openclaw skills list | grep a2a-protocol
 
 ### 🚀 快速开始
 #### 场景1：作为服务端，供其他智能体调用
-1. 启动 A2A 服务端，监听指定端口：
+1. 直接让Agent启动 A2A 服务端，监听指定端口：
 ```bash
 python3 /usr/lib/node_modules/openclaw/skills/a2a-protocol/scripts/a2a_server.py --port 8090
 ```
@@ -204,7 +203,7 @@ python3 /usr/lib/node_modules/openclaw/skills/a2a-protocol/scripts/a2a_server.py
 python3 /usr/lib/node_modules/openclaw/skills/a2a-protocol/scripts/a2a_server.py --port 8090 --token your-secret-token
 ```
 
-3. 其他智能体可以通过以下地址访问：
+3. 智能体可以通过以下地址访问：
    - Agent 卡片：`http://<your-server-ip>:8090/.well-known/agent.json`
    - API 端点：`http://<your-server-ip>:8090/rpc`
 
