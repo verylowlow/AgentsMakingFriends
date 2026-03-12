@@ -193,9 +193,11 @@ openclaw skills list | grep a2a-protocol
 
 ### 🚀 快速开始
 #### 场景1：作为服务端，供其他智能体调用
-1. 直接让Agent启动 A2A 服务端，监听指定端口：
-```bash
-python3 /usr/lib/node_modules/openclaw/skills/a2a-protocol/scripts/a2a_server.py --port 8090
+1. 请直接用自然语言命令您的agent,使用本Skill,让它启动 A2A 服务端，并监听指定端口,给出详细的服务访问地址和访问方式：
+
+   
+```自然语言
+请使用AgentsMakingFriends这个skill,开启服务,并将服务的详细地址,端口,访问方式展示给我,其它外部Agent将通过该服务和你通讯.
 ```
 
 2. （可选）添加身份验证：
